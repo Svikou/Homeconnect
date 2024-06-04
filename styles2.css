@@ -1,0 +1,169 @@
+/* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+body {
+  margin: 0;
+  padding: 3px;
+  font-family: "Poppins", sans-serif;
+  color: #324F53;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 46px;
+  margin-right: 10px;
+}
+
+.logo-text{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #324F53;
+}
+
+.menu-icon img {
+  height: 28px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.budget-form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  display: block;
+}
+
+
+fieldset {
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  justify-content: space-between;
+  width: 888px;
+}
+
+fieldset p {
+  font-size: 18px;
+  display: flex;
+  text-align: center;
+  color: #324F53;
+}
+
+.form2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.inputs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section{
+  display: block;
+  background-color: #dddddd;
+  width: 1199px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.section h2{
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 20px;
+  color: #324F53;
+}
+
+legend {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  color: #324F53;
+}
+
+
+input[type="text"] {
+  width: calc(50% - 50px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  display: grid;
+  outline: none;
+}
+
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  background-color: #d74949;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.next-btn {
+  background-color: #F7D93F;
+  color: #324F53;
+  font-weight: 600;
+}
+
+footer {
+  padding: 10px 20px;
+  display: flex;
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 10px;
+  color: #324F53;
+  font-weight: 600;
+}
+
+footer a {
+  text-decoration: none;
+  color: #324F53;
+  font-size: 10px;
+  font-weight: 600;
+}

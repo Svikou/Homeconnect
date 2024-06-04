@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main Content */
+main {
+  padding: 40px;
+}
+
+.building-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.building-info .image {
+  width: 40%;
+  float: left;
+}
+
+.building-info .image img {
+  width: 100%;
+  height: auto;
+}
+
+.building-info .details {
+  width: 60%;
+  float: right;
+  padding-left: 20px;
+}
+
+.building-info h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.building-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.availability {
+  margin-bottom: 20px;
+}
+
+.availability p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.availability ul {
+  list-style: none;
+  padding: 0;
+ } 
