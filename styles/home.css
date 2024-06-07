@@ -53,7 +53,6 @@ main {
 .background-container {
   width: 100%;
   height: 100%;
-  background: url('images/0422-POM-13.jpg') no-repeat center center fixed;
   background-size: cover;
   border-radius: 10px;
   display: flex;
@@ -63,8 +62,8 @@ main {
 }
 
 .overlay {
-  background-color: rgba(255, 255, 255, 0.701);
-  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.558);
+  border-radius: 12px;
   padding: 20px 40px;
   width: 600px;
   text-align: center;
