@@ -4,12 +4,11 @@
 
 body {
   margin: 0;
-  padding: 3px;
   font-family: "Poppins", sans-serif;
   color: #324F53;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  
 }
 
 header {
@@ -49,6 +48,7 @@ header {
   border-radius: 12px;
   display: flex;
   align-items: center;
+  margin-left: 3px;
 }
 
 .section h2{
@@ -108,15 +108,13 @@ th {
 .contact {
   margin-top: 20px;
   padding: 10px;
-  background-color: #d74949;
-  color: #ffff;
-  border-radius: 18px;
-  width: 190px;
-
+  background-color:  #dddddd;;
+  color: #324F53;
+  width: 170px;
   text-align: center;
   font-weight: 600;
   position: relative;
-  left: 550px;
+  left: 564px;
 }
 
 footer {
@@ -139,4 +137,148 @@ footer a {
   color: #324F53;
   font-size: 10px;
   font-weight: 600;
+}
+
+/* MEDIAQUERIES */
+
+@media screen and (max-width: 900px) {
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #324F53;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .section{
+    display: block;
+    background-color: #dddddd;
+    width: 880px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    overflow: hidden;
+    padding: 5px;
+    width: 870px;
+    height: 270px;
+  }
+  .contact {
+    margin-top: 20px;
+    padding: 10px;
+    background-color:  #dddddd;;
+    color: #324F53;
+    width: 170px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    left: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #324F53;
+  }
+  .menu-icon img {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .section{
+    display: block;
+    background-color: #dddddd;
+    width: 480px;
+    height: 42px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section h2{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+    color: #324F53;
+  }
+  .container {
+    display: flex;
+    overflow: hidden;
+    padding: 5px;
+    width: 470px;
+    height: 180px;
+  }
+  
+  .image img {
+    width: 200px;
+    height: 140px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .details {
+    padding-left: 5px;
+    padding-bottom: 5px;
+    flex-grow: 1;
+  }
+  
+  .details p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: 12px;
+  }
+  
+  th {
+    background-color: #F7D93F;
+    color: #324F53;
+    height: 10px;
+  }
+  
+  .contact {
+    margin-top: 2px;
+    padding: 4px;
+    background-color:  #dddddd;
+    color: #324F53;
+    width: 140px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    position: relative;
+    left: 110px;
+  }
+  
+  footer {
+    padding: 10px 20px;
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

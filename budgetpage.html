@@ -20,29 +20,23 @@
       <h2>Etablir un plan financier</h2>
     </div>
     <main>
+     <form action="" method="">
+
         <div class="budget-form">
         <section>
-            <form>
                 <fieldset>
-                    <legend>Quel loyer pouvez-vous vous permettre de payer ?</legend>
-                    <p>Nous utiliserons vos sélections pour vous trouver des logements qui conviendront à votre budget.</p>
-                    <div class="inputs">
-                    <input type="text" id="min-rent" placeholder="Loyer minimum en GNF">
-                    <input type="text" id="max-rent" placeholder="Loyer maximum en GNF">
+                    <legend>Fixez votre loyer !</legend></legend>
+                    <p>Nous utiliserons vos sélections pour categoriser votre annonce sur le site</p>
+                    <div class="inputerr">
+                    <input type="text" id="min-rent" placeholder="Rentrez le montant du loyer en franc guinnéen">
                    </div>
-                    <div class="form-buttons">
-                        <button type="button" class="prev-btn" onclick="location.href = 'homepage.html'">Précédent</button>
-                        <button type="submit" class="next-btn" id="scrollButton">Suivant</button>
-                    </div>
                 </fieldset>
-            </form>
         </section>
 
         <section>
-            <form class="form2">
               <fieldset>
-                  <legend>De combien de chambre avez vous bésoins ?</legend>
-                  <p>Nous utiliserons vos sélections pour vous trouver des logements qui conviendront à votre budget.</p>
+                  <legend>Combien de chambre avez vous ?</legend>
+                  <p>Nous utiliserons vos sélections pour categoriser votre annonce sur le site.</p>
                   <div class="inputs">
                       <label class="checkbox-label">
                           <input type="checkbox" name="studio">
@@ -65,22 +59,16 @@
                           <span>4 chambres</span>
                       </label>
                   </div>
-                  <div class="form-buttons">
-                      <button type="button" class="prev-btn" onclick="location.href = 'index.html'">Précédent</button>
-                      <button type="submit" class="next-btn">Suivant</button>
-                  </div>
               </fieldset>
-          </form>
         </section>
 
         <section>
-          <form>
             <fieldset>
-                <legend>Dans quels zones aimeriez vous vivre ?</legend>
-                <p>Nous utiliserons vos sélections pour vous trouver des logements qui conviendront à votre budget.</p>
+                <legend>Dans quels zones ce trouve votre bien ?</legend>
+                <p>Nous utiliserons vos sélections pour categoriser votre annonce sur le site.</p>
                 <div class="inputs">
                     <label class="checkbox-label">
-                        <input type="checkbox" name="studio">
+                        <input type="checkbox" name="En ville">
                         <span>En ville</span>
                     </label>
                     <label class="checkbox-label">
@@ -96,15 +84,51 @@
                         <span>Corniche</span>
                     </label>
                 </div>
-                <div class="form-buttons">
-                    <button type="button" class="prev-btn" onclick="location.href = 'index.html'">Précédent</button>
-                    <button type="submit" class="next-btn">Suivant</button>
-                </div>
             </fieldset>
-        </form>
     </section>
-        </div>
-    </main>
+    <section>
+          <fieldset>
+              <legend>Dans quels quartier ce trouve votre bien ?</legend>
+              <p>Nous utiliserons vos sélections pour categoriser votre annonce sur le site.</p>
+                <div class="inputerr">
+                <input type="text" id="min-rent" placeholder="Rentrez le nom du quartier oû se trove votre bien">
+                </div>
+          </fieldset>
+  </section>
+
+  <section>
+      <fieldset>
+          <legend>Nommer votre batiment !</legend>
+          <p>Nous utiliserons vos sélections pour categoriser votre annonce sur le site.</p>
+          <div class="inputerr">
+            <input type="text" id="min-rent" placeholder="Rentrez le nom du batiment">
+            </div>
+      </fieldset>
+</section>
+
+<section>
+      <fieldset>
+          <legend>Laissez votre numero de télephone !</legend>
+          <p>Nous utiliserons vos sélections pour categoriser votre annonce sur le site.</p>
+          <div class="inputerr">
+            <input type="text" id="min-rent" placeholder="Rentrez votre numero de télephone">
+            </div>
+      </fieldset>
+</section>
+
+<section>
+      <fieldset>
+          <legend>Ajoutez une image sur votre annonce !</legend>
+          <p>Nous utiliserons vos sélections pour categoriser votre annonce sur le site.</p>
+          <div class="inputs"> 
+                <input type="file" name="image">
+                <input type="submit" value="Ajouter" name="send">
+          </div>
+      </fieldset>
+</section>
+</div>
+    </form>
+ </main>
     <footer>
         <p>SVIKOU © 2024 • All Rights Reserved</p>
         <a href="#">Terms and conditions</a>

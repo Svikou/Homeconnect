@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  height: fit-content;
 }
 
 header {
@@ -51,13 +52,12 @@ main {
 }
 
 .budget-form {
-  background-color: #ffffff;
+  background-color: #100202;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
   display: block;
 }
-
 
 fieldset {
   border: 1px solid #dddddd;
@@ -67,6 +67,7 @@ fieldset {
   justify-content: space-between;
   width: 888px;
   margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 fieldset p {
@@ -76,10 +77,7 @@ fieldset p {
   display: flex;
   color: #324F53;
 }
-.space{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
 
 form {
   background-color: #fff;
@@ -90,26 +88,12 @@ form {
   width: 350px;
 }
 
-
-.form2{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .inputs{
   display: flex;
   justify-content: space-between;
 }
 
-.section{
-  display: block;
-  background-color: #dddddd;
-  width: 1199px;
-  height: 56px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-}
+
 
 .section h2{
   font-size: 1.3rem;
