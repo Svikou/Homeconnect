@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CNKRY HOME CONNECT</title>
-    <link rel="stylesheet" href="styles/budgetpage.css">
+    <link rel="stylesheet" href="styles/propriopage.css">
 </head>
 <body>
   <header>
@@ -101,24 +101,26 @@
                     <button type="submit" class="next-btn">Suivant</button>
                 </div>
             </fieldset>
-                    <div class="space"></div>
-            <fieldset>
-                     <legend>Ajouter une photo !</legend>
-                     <p>Nous utiliserons l'ensemble de vos sélections pour categoriser votre annonce sur le site.</p>
-                      <div class="inputs">
-                        <form action="" method="POST" enctype="multipart/form-data"> 
-                            <input type="file" name="image">
-                            <input type="submit" value="Ajouter" name="send">
-                        </form>
-                      </div>
-                        <div class="form-buttons">
-                        <button type="button" class="prev-btn" onclick="location.href = 'homepage.html'">Précédent</button>
-                         <button type="submit" class="next-btn" id="scrollButton">Suivant</button>
-                        </div>
-             </fieldset>
         </form>
     </section>
-        </div>
+
+    <section>
+        <fieldset class="f">
+            <legend>Ajouter une photo !</legend>
+            <p>Nous utiliserons l'ensemble de vos sélections pour categoriser votre annonce sur le site.</p>
+             <div class="inputs">
+               <form action="" method="POST" enctype="multipart/form-data"> 
+                   <input type="file" name="image">
+                   <input type="submit" value="Ajouter" name="send">
+               </form>
+             </div>
+               <div class="form-buttons">
+               <button type="button" class="prev-btn" onclick="location.href = 'homepage.html'">Précédent</button>
+                <button type="submit" class="next-btn" id="scrollButton">Suivant</button>
+               </div>
+    </fieldset>
+    </section>
+        
     </main>
     <footer>
         <p>SVIKOU © 2024 • All Rights Reserved</p>

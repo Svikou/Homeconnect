@@ -1,0 +1,55 @@
+/* MEDIAQUERIES */
+
+@media screen and (max-width: 600px) {
+  .logo img {
+    height: 38px;
+    margin-right: 10px;
+  }
+  
+  .logo-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #324F53;
+  }
+  .menu-icon img {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.694);
+    border-radius: 12px;
+    padding: 20px 40px;
+    width: 350px;
+    text-align: center;
+  }
+  .content h1{
+    font-size: 24px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  button {
+    padding: 6px;
+    border: none;
+    border-radius: 40px;
+    width: 990px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .catalogue {
+    background-color: #F7D93F;
+    color: #324F53;
+    font-size: 12.1px;
+  }
+  .plan {
+    background-color: #d74949;
+    color: #fff;
+  }
+}

@@ -47,7 +47,7 @@
               </tbody>
           </table>
           <div class="contact">
-              contact : 620 38 86 55
+              Contact : 620 38 86 55
           </div>
       </div>
       </div>
@@ -82,6 +82,45 @@
                     contact : 620 38 86 55
                 </div>
             </div>
+        </div>
+        <div class="container">
+        <h2></h2>
+        <p></p>
+        
+        <table>
+            <tr id="items">
+                <th>Type</th>
+                <th>Loyer</th>
+                <th>Zone</th>
+            </tr>
+            <?php 
+                //inclure la page de connexion
+                include_once "connexion.php";
+                //requête pour afficher la liste des employés
+                $req = mysqli_query($con , "SELECT * FROM seting");
+                if(mysqli_num_rows($req) == 0){
+                    //s'il n'existe pas d'employé dans la base de donné , alors on affiche ce message :
+                    echo "Il n'y a pas encore d'employé ajouter !" ;
+                    
+                }else {
+                    //si non , affichons la liste de tous les employés
+                    while($row=mysqli_fetch_assoc($req)){
+                        ?>
+                        <div><?=$row['batiment']?></div>
+                        <div><?=$row['quartier']?></div>
+                        <tr>
+                            <td><?=$row['chambre']?></td>
+                            <td><?=$row['loyer']?></td>
+                            <td><?=$row['zone']?></td>
+                        </tr>
+                        <?php
+                    }
+                    
+                }
+            ?>
+      
+         
+        </table>
         </div>
   <footer>
         <p>SVIKOU © 2024 • All Rights Reserved</p>
