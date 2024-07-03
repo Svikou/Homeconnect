@@ -19,7 +19,7 @@
                 //requête d'ajout
                 $req = mysqli_query($con , "INSERT INTO seting VALUES(NULL, '$loyer', '$chambre','$zone','$quartier','$batiment','$numero','$image')");
                 if($req){//si la requête a été effectuée avec succès , on fait une redirection
-                    header("location: catalogue.php");
+                    header("location: homepage.html");
                 }else {//si non
                     $message = "";
                 }
